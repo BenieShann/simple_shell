@@ -25,6 +25,7 @@
    By executing the program without any arguments:
 
 ### INTERACTIVE MODE 
+
    `$ ./hsh`
    `($) /bin/ls`
    `hsh main.c shell.c`
@@ -45,7 +46,6 @@
    `hsh main.c shell.c test_ls_2`
    `hsh main.c shell.c test_ls_2`
    `$`
-i
 ---
 
 * **BenieShann** [Shann](https://github.com/BenieShann)
