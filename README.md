@@ -24,7 +24,7 @@
  * Shell can be run in interactive and non-interactive mode
    By executing the program without any arguments:
 
-#### INTERACTIVE MODE 
+### INTERACTIVE MODE 
    `$ ./hsh`
    `($) /bin/ls`
    `hsh main.c shell.c`
@@ -32,7 +32,7 @@
    `($) exit`
    `$`
 
-####NON-INTEREACTIVE MODE
+### NON-INTEREACTIVE MODE
 
    `$ echo "/bin/ls" | ./hsh`
    `hsh main.c shell.c test_ls_2`
@@ -45,7 +45,7 @@
    `hsh main.c shell.c test_ls_2`
    `hsh main.c shell.c test_ls_2`
    `$`
-
+i
 ---
 
 * **BenieShann** [Shann](https://github.com/BenieShann)
