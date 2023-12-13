@@ -41,13 +41,12 @@ void parse_line(char *line, size_t size, int command_counter, char **av)
 }
 
 /**
- * create_child_process - Generates  a child process to execute another program.
- *
+ * create_child_process - Generates  a child process to
+ * Execute another program.
  * @param_array: An array of string pointers that is NULL terminated.
  * @line:Contents of the input line.
  * @count:Counter tracking of no. of entered commands..
  * @av: Shell's parent program name.
- *
 */
 
 void create_child_process(char **param_array, char *line, int count, char **av)
@@ -67,7 +66,7 @@ void create_child_process(char **param_array, char *line, int count, char **av)
 		command = find_command_path(param_array[0]);
 		if (command == NULL)
 		{
-			/* Searching  for a file in current directory */
+
 
 			check = stat(tmp_command, &buf);
 			if (check == -1)
@@ -81,7 +80,7 @@ void create_child_process(char **param_array, char *line, int count, char **av)
 				exit(100);
 			}
 
-	/* File either present in the current working directory or specified  with its full path */
+
 
 			command = tmp_command;
 		}
@@ -98,11 +97,12 @@ void create_child_process(char **param_array, char *line, int count, char **av)
 }
 
 /**
- * tokenize_interface - Facilitates  with other token 
+ * tokenize_interface - Facilitates  with other token
  * functions enhancing their accesibility.
- * 
+ *
  * @line: Stores raw user input as a string.
- * @delim: Defines constant string containing  delimiter used to tokenize input line
+ * @delim: Defines constant string containing
+ * Delimiter used to tokenize input line
  * @token_count: Keeps track of no. of tokens in a string
  * Return: Stores an array of tokens representing the command
  *
@@ -166,7 +166,7 @@ char **tokenize(int token_count, char *line, const char *delim)
  * @delim:Desired delimeter token separation
  *
  * Return:Returns total count of tokens,otherwise -1.
- *   
+ *
 */
 
 int count_token(char *line, const char *delim)
