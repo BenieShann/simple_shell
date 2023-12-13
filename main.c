@@ -2,7 +2,7 @@
 
 /**
  * main - entry point.
- * @ac:no. of parameters passed.
+ * @ac:no. of param passed.
  * @av:program
  *
  * Return: 0
