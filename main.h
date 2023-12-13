@@ -17,8 +17,8 @@
 
 /**
  * struct builtin_d - defines builtins functions
- * @built: Name of build in command
- * @f: Pointer to the right builtin function
+ * @built:Name of build in command
+ * @f:Pointer to  right builtin function
  *
 */
 
@@ -65,4 +65,4 @@ void print_str(char *, int);
 void exec_error(char *, int, char *);
 void error_printing(char *, int, char *);
 
-#endif
+#endif/*BenieShann*/
